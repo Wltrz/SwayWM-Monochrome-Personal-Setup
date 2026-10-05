@@ -113,7 +113,7 @@ bar {
 # "The fog is lifting, but the terminal remains."
 
 ### Screenshot
-bindsym $mod+Shift+S exec grim -g "$(slurp)" $HOME/Pictures/screenshot_$(date +%Y%m%d_%H%M%S).png
+bindsym $mod+Shift+s exec grim -g "$(slurp)" $HOME/Pictures/screenshot_$(date +%Y%m%d_%H%M%S).png
 
 seat seat0 xcursor_theme Bibata-Modern-Classic 30
 
