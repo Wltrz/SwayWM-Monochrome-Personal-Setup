@@ -11,6 +11,11 @@ Singleton {
     readonly property color fg:        "#e0e0e0"
     readonly property color muted:     "#767676"
     readonly property color red:       "#f7768e"
+    readonly property color green:     "#c6c6c6"
+    readonly property color yellow:    "#949494"
+    readonly property color orange:    "#767676"
+    readonly property color cyan:      "#acacac"
+    readonly property color pink:      "#e0e0e0"
 
     // ---- Semantic colours (use these in menus) ----
     readonly property color accent:    "#acacac"
