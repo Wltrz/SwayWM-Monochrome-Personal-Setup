@@ -96,6 +96,7 @@ bindsym --locked XF86AudioLowerVolume exec wpctl set-volume @DEFAULT_AUDIO_SINK@
 bindsym --locked XF86AudioMute exec wpctl set-mute @DEFAULT_AUDIO_SINK@ toggle
 bindsym --locked XF86MonBrightnessUp exec brightnessctl set 5%+
 bindsym --locked XF86MonBrightnessDown exec brightnessctl set 5%-
+bindsym --locked XF86AudioMicMute exec wpctl set-mute @DEFAULT_AUDIO_SOURCE@ toggle
 
 # --- Mouse Bindings (The "Invisible" part) ---
 # Permite mover ventanas flotantes con Mod+Click Izquierdo
@@ -124,6 +125,9 @@ input type:touchpad {
     tap enabled
     natural_scroll enabled
     dwt enabled
+}
+input type:keyboard {
+    xkb_layout <layout>
 }
 
 exec dunst
