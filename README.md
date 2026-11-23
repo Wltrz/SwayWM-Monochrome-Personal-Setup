@@ -1,3 +1,4 @@
+# This project is no longer being updated because im do damn lazy and im making my own personal dots only
 # SwayWM Monochrome Personal Setup
 
 This is a fork of a Rice I really liked, so I customized it for my personal use. You are free to use this however you want.
